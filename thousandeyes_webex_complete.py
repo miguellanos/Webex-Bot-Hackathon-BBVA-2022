@@ -70,7 +70,7 @@ def test_details(incoming_msg):
 # Add new commands to the box.
 bot.add_command("/listagents", "This will list endpoint agents", list_agents)
 bot.add_command("/listtests", "This will list tests", list_tests)
-bot.add_command("/testdetails", "This will provde more information about a test with the given Test ID (e.g. /testdetails 12345)", test_details)
+bot.add_command("/testdetails", "This will provde more information about a test with the given Test ID (/testdetails 12345)", test_details)
 
 bot.remove_command("/echo")
 
