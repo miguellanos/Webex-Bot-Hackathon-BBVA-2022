@@ -41,7 +41,7 @@ def list_agents(incoming_msg):
     return message
 
 # Add new commands to the box.
-bot.add_command("/listagents", "This will list endpoint agents", list_agents)
+bot.add_command("/listagents", "List endpoint agents", list_agents)
 
 if __name__ == "__main__":
     # Run Bot
